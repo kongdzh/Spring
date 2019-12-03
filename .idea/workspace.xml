@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d909ec3b-2edc-4abb-b319-2e65f965375e" name="Default Changelist" comment="静态工厂，实例工厂创建实例">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/beans/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/beans/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/beans/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/factories/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/factories/CarInstanceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Spring.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wonders/beans/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wonders/beans/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wonders/beans/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wonders/factories/CarFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wonders/factories/CarInstanceFactory.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\IdeaProjects\Spring\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UPvgabelpk4DyDgOmUrHzfITmW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Spring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d909ec3b-2edc-4abb-b319-2e65f965375e" name="Default Changelist" comment="" />
+      <created>1575271156501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575271156501</updated>
+      <workItem from="1575271157778" duration="8707000" />
+      <workItem from="1575337950678" duration="7406000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="静态工厂，实例工厂创建实例" />
+    <option name="LAST_COMMIT_MESSAGE" value="静态工厂，实例工厂创建实例" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="819" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1575279589366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="819" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575279589366" />
+    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1575367660701">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575367660701" />
+    <state x="794" y="275" key="FileChooserDialogImpl" timestamp="1575366307595">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575366307595" />
+    <state width="1449" height="261" key="GridCell.Tab.0.bottom" timestamp="1575367660709">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1449" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575367660709" />
+    <state width="1449" height="261" key="GridCell.Tab.0.center" timestamp="1575367660709">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1449" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575367660709" />
+    <state width="1449" height="261" key="GridCell.Tab.0.left" timestamp="1575367660709">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1449" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575367660709" />
+    <state width="1449" height="261" key="GridCell.Tab.0.right" timestamp="1575367660709">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1449" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575367660709" />
+    <state x="515" y="162" key="SettingsEditor" timestamp="1575366143780">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="515" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575366143780" />
+    <state x="695" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1575337958744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="695" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575337958744" />
+    <state x="677" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1575274046510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575274046510" />
+    <state x="640" y="203" key="spring file set editor" timestamp="1575272194752">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="203" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1575272194752" />
+  </component>
+</project>

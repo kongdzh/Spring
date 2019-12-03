@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="car1" class="com.wonders.beans.Car">
+        <property name="band" value="BMW"/>
+        <property name="price" value="300000"/>
+    </bean>
+
+<!--  static工厂  -->
+    <bean id="car2" class="com.wonders.factories.CarFactory" factory-method="getCar">
+        <constructor-arg value="兰博基尼大牛"/>
+    </bean>
+<!--  实例工厂
+      先创建工厂实例
+      再通过工厂实例创建对象
+-->
+    <bean id="instanceCarFactory" class="com.wonders.factories.CarInstanceFactory"/>
+    <bean id="car3" factory-bean="instanceCarFactory" factory-method="getCar">
+        <constructor-arg value="Audi-R8"/>
+    </bean>
+
+    <bean id="person" class="com.wonders.beans.Person">
+        <property name="name" value="kong"/>
+        <property name="age" value="18"/>
+        <property name="car" ref="car1"/>
+        <property name="carList">
+            <list>
+                <bean class="com.wonders.beans.Car">
+                    <property name="band" value="Benz"/>
+                    <property name="price" value="1000000"/>
+                </bean>
+                <ref bean="car1"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="student" class="com.wonders.beans.Student">
+        <property name="name" value="fei"/>
+        <property name="age" value="20"/>
+        <property name="grade" value="一"/>
+    </bean>
+
+    <bean id="student2" class="com.wonders.beans.Student">
+        <constructor-arg value="小黄" index="0" type="java.lang.String"/>
+        <constructor-arg value="19" index="1" type="int"/>
+        <constructor-arg value="三" index="2" type="java.lang.String"/>
+    </bean>
+</beans>
