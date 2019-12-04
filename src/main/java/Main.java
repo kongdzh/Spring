@@ -1,5 +1,6 @@
 import com.wonders.beans.Person;
 import com.wonders.beans.Student;
+import com.wonders.service.Impl.AccountServiceImpl;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -32,5 +33,7 @@ public class Main {
         System.out.println(car2);
         System.out.println(car3);
 
+        AccountServiceImpl accountService = new AccountServiceImpl();
+        accountService.saveAccount();
     }
 }
