@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d909ec3b-2edc-4abb-b319-2e65f965375e" name="Default Changelist" comment="通过注解，自动注册创建bean容器，servlet调用service，service调用dao">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/servlet/AccountServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wonders/servlet/AccountServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
+    <list default="true" id="d909ec3b-2edc-4abb-b319-2e65f965375e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/dao/IAccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/dao/IAccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/dao/Impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/dao/Impl/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/service/Impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/service/Impl/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/dao/IAccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/dao/IAccountDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/dao/Impl/AccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/dao/Impl/AccountDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/servlet/AccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/servlet/AccountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/service/Impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/service/Impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +118,7 @@
       <workItem from="1575337950678" duration="7406000" />
       <workItem from="1575383661947" duration="714000" />
       <workItem from="1575465555063" duration="6970000" />
-      <workItem from="1575544393690" duration="6776000" />
+      <workItem from="1575544393690" duration="8520000" />
     </task>
     <task id="LOCAL-00001" summary="service, dao, ui">
       <created>1575471760510</created>
@@ -133,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575471760510</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="通过注解，自动注册创建bean容器，servlet调用service，service调用dao">
+      <created>1575555236725</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575555236725</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

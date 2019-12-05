@@ -33,7 +33,7 @@ public class Main {
         System.out.println(car2);
         System.out.println(car3);
 
-        AccountServiceImpl accountService = new AccountServiceImpl();
-        accountService.saveAccount();
+//        AccountServiceImpl accountService = new AccountServiceImpl();
+//        accountService.saveAccount();
     }
 }

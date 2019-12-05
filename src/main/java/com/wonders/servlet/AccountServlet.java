@@ -7,8 +7,12 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class AccountServlet {
 
+    private final AccountServiceImpl accountService;
+
     @Autowired
-    private AccountServiceImpl accountService;
+    public AccountServlet(AccountServiceImpl accountService) {
+        this.accountService = accountService;
+    }
 
     public void test() {
         accountService.saveAccount();

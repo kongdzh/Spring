@@ -8,8 +8,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class AccountServiceImpl implements IAccountService {
 
+    private final AccountDaoImpl accountDao;
+
     @Autowired
-    private AccountDaoImpl accountDao;
+    public AccountServiceImpl(AccountDaoImpl accountDao) {
+        this.accountDao = accountDao;
+    }
 
     @Override
     public void saveAccount() {
