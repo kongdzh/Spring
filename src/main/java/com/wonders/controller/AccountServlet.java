@@ -1,4 +1,4 @@
-package com.wonders.servlet;
+package com.wonders.controller;
 
 import com.wonders.service.Impl.AccountServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

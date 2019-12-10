@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d909ec3b-2edc-4abb-b319-2e65f965375e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/beans/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/beans/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/dao/Impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/dao/Impl/AccountDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/service/Impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/service/Impl/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/servlet/AccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/servlet/AccountServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/servlet/AccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/controller/AccountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/beans/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/beans/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/dao/Impl/AccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/dao/Impl/AccountDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/service/Impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/service/Impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/servlet/AccountServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,18 +74,6 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="JUnit.Test.test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -104,6 +99,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -119,6 +126,8 @@
       <workItem from="1575383661947" duration="714000" />
       <workItem from="1575465555063" duration="6970000" />
       <workItem from="1575544393690" duration="8520000" />
+      <workItem from="1575856430244" duration="8810000" />
+      <workItem from="1575941183972" duration="10270000" />
     </task>
     <task id="LOCAL-00001" summary="service, dao, ui">
       <created>1575471760510</created>
@@ -202,30 +211,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575366307595" />
-    <state width="1449" height="261" key="GridCell.Tab.0.bottom" timestamp="1575367660709">
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom" timestamp="1575947527629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1449" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575367660709" />
-    <state width="1449" height="261" key="GridCell.Tab.0.center" timestamp="1575367660709">
+    <state width="1877" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575947527629" />
+    <state width="1877" height="215" key="GridCell.Tab.0.center" timestamp="1575947527629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1449" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575367660709" />
-    <state width="1449" height="261" key="GridCell.Tab.0.left" timestamp="1575367660709">
+    <state width="1877" height="215" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575947527629" />
+    <state width="1877" height="215" key="GridCell.Tab.0.left" timestamp="1575947527628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1449" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575367660709" />
-    <state width="1449" height="261" key="GridCell.Tab.0.right" timestamp="1575367660709">
+    <state width="1877" height="215" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575947527628" />
+    <state width="1877" height="215" key="GridCell.Tab.0.right" timestamp="1575947527629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1449" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575367660709" />
+    <state width="1877" height="215" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575947527629" />
     <state x="515" y="162" key="SettingsEditor" timestamp="1575366143780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="515" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575366143780" />
-    <state x="695" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1575337958744">
+    <state x="695" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1575941184445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="695" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575337958744" />
+    <state x="695" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575941184445" />
+    <state x="334" y="215" key="new project wizard" timestamp="1575958533362">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1575958533362" />
     <state x="677" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1575274046510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

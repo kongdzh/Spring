@@ -1,4 +1,4 @@
-import com.wonders.servlet.AccountServlet;
+import com.wonders.controller.AccountServlet;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

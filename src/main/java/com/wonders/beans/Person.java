@@ -9,20 +9,20 @@ public class Person {
     private Car car;
     private List<Car> carList;
 
-    public List<Car> getCarList() {
-        return carList;
-    }
-
-    public void setCarList(List<Car> carList) {
-        this.carList = carList;
-    }
-
     public Person() {
     }
 
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+
+    public List<Car> getCarList() {
+        return carList;
+    }
+
+    public void setCarList(List<Car> carList) {
+        this.carList = carList;
     }
 
     public String getName() {

@@ -1,9 +1,10 @@
 package com.wonders.dao.Impl;
 
 import com.wonders.dao.IAccountDao;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Repository;
 
-@Repository
+@Repository(value = "accountDao")
 public class AccountDaoImpl implements IAccountDao {
     @Override
     public void save() {
